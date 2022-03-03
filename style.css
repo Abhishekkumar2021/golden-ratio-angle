@@ -1,0 +1,26 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body {
+	width: 100%;
+	height: 100vh;
+}
+canvas {
+	background: rgb(42, 44, 46);
+}
+#angle{
+	position: absolute;
+	left:10px;
+	top:10px;
+	background:rgb(57, 62, 65);
+	padding:10px 15px;
+	border:none;
+	outline:none;
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.425);
+	color:white;
+	border-radius: 5px;
+	font-size: 16px;
+	
+}
