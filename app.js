@@ -5,8 +5,8 @@ let id;
 let hue = 1;
 
 function doSomething(incAngle = 137.508) {
-	canvas.width = window.innerWidth;
-	canvas.height = window.innerHeight;
+	canvas.width = 0.99*window.innerWidth;
+	canvas.height = 0.99*window.innerHeight;
 	let radius = 5;
 	let dis = 0;
 	let angle = 0;
